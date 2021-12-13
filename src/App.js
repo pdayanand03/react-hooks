@@ -5,6 +5,7 @@ import HookCounterFour from './components/HookCounterFour';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookUseEffect from './components/HookUseEffect';
+import MouseComponent from './components/MouseComponent';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
      {/* <HookCounterTwo/> */}
      {/* <HookCounterThree/> */}
      {/* <HookCounterFour/> */}
-     <HookUseEffect/>
+     {/* <HookUseEffect/> */}
+     <MouseComponent/>
     </div>
   );
 }
